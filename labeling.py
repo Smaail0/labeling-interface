@@ -11,9 +11,12 @@ class LabelingApp:
         self.max_width = max_width
         self.max_height = max_height
 
+        # Rename files to replace spaces with underscores
+        self.rename_files()
+
         # Get list of image files (adjust extensions as needed)
         self.image_files = sorted([f for f in os.listdir(image_folder)
-                                    if f.lower().endswith(('.png', '.jpg', '.jpeg', '.bmp'))])
+                                   if f.lower().endswith(('.png', '.jpg', '.jpeg', '.bmp'))])
         self.index = 0
 
         # Create UI elements
@@ -30,6 +33,15 @@ class LabelingApp:
         self.status_label.pack(pady=5)
 
         self.load_image()
+
+    def rename_files(self):
+        """Renames files in the folder to replace spaces with underscores."""
+        for filename in os.listdir(self.image_folder):
+            if " " in filename:  # Check if filename contains spaces
+                new_filename = filename.replace(" ", "_")
+                old_path = os.path.join(self.image_folder, filename)
+                new_path = os.path.join(self.image_folder, new_filename)
+                os.rename(old_path, new_path)
 
     def load_image(self):
         if self.index < len(self.image_files):

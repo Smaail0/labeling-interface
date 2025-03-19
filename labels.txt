@@ -60,3 +60,16 @@ Capture d'écran 2025-03-18 110649.png	Date de Naissance: 2011-08-03
 Capture d'écran 2025-03-18 110702.png	01-01-22 C1 50,000D
 Capture d'écran 2025-03-18 110708.png	Nom et Prénom du Malade: Maram SALLAMI
 Capture d'écran 2025-03-18 110712.png	01/01/22 68208
+Capture_d'écran_2025-03-18_105822.png	Prénom: Kara Linda
+Capture_d'écran_2025-03-18_105853.png	Adresse; Av. Habib Maazoun 3011 Sakiet Eddaier
+Capture_d'écran_2025-03-18_105858.png	Code postal:
+Capture_d'écran_2025-03-18_105923.png	Identifiant Unique: 1255744923
+Capture_d'écran_2025-03-18_105952.png	Date de Naissance: 2005/05/02
+Capture_d'écran_2025-03-18_110000.png	58338655
+Capture_d'écran_2025-03-18_110010.png	Nom et Prénom de malade: Abdallah Karra
+Capture_d'écran_2025-03-18_110014.png	07/01/2022 cons 350000D
+Capture_d'écran_2025-03-18_110019.png	07/01/2022
+Capture_d'écran_2025-03-18_110024.png	act test 30000D
+Capture_d'écran_2025-03-18_110029.png	7/1/2022 32.380D 1/9796/96
+Capture_d'écran_2025-03-18_110104.png	2115093484
+Capture_d'écran_2025-03-18_110113.png	c 15,000
